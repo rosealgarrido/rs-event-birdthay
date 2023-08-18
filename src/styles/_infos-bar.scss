@@ -1,0 +1,24 @@
+@use 'variables';
+
+.infos-bar {
+    padding: 16px 24px;
+    background-color: variables.$corSecondary;
+    display: flex;
+    justify-content: space-between;
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 14px;
+            color: variables.$corTexto;
+
+            b {
+                color: variables.$corTexto;
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+}

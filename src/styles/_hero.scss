@@ -1,0 +1,28 @@
+@use 'variables';
+
+.hero {
+    font-size: 32px;
+    min-height: 80vh;
+    background-image: url(../images/rose.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    color: variables.$corTexto;
+    background-size: cover;
+    max-width: 640px;
+    margin: 0 auto;
+
+    .container {
+        display: flex;
+        position: absolute;
+        background-size: cover;
+        padding-top: 100px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    &__img {
+        display: block;
+        background-size: contain;
+    }
+}

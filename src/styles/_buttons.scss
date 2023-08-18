@@ -1,0 +1,12 @@
+@use 'variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    background-color: variables.$corButton;
+    color: variables.$corTextoSecondary;
+}
